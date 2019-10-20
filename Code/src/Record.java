@@ -12,7 +12,7 @@ public class Record {
 		this.reldef = reldef;
 		values = new ArrayList<String>();
 	}
-
+	//Commentaire test
 	public void WriteToBuffer(ByteBuffer buff, int position) {
 		buff.position(position);
 		for (int i = 0; i < values.size(); i++) {
